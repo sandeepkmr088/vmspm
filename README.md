@@ -40,6 +40,15 @@ $ python -m venv env
 (env) $ vms> python manage.py createsuperuser
 
 ## Create app name core
-(env) $ vms> django-admin startapp core
+(env) $ vms> django-admin startapp core  or python .\manage.py startapp core
+
+## Add 'rest_framewrok' and 'core' inside INSTALLED_APPS in  settings.py
+## Then Create Models in core/models.py ----> core/serializer.py ------> core/views.py -------->core/urls.py
+## Also do change in vms/urls.py
+
+## Final run django application
+(env) $ vms> python manage.py runserver
+
+
 
 
