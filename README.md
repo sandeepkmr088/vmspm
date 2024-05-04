@@ -51,7 +51,7 @@ $ python -m venv env
 ## Final run django application
 (env) $ vms> python manage.py runserver
 
-## Open http://localhost:8000/api/vendors/ ,http://localhost:8000/api/vendors/1/ , http://localhost:8000/api/vendors/
+## Open http://localhost:8000/api/vendors/ ,http://localhost:8000/api/vendors/1/ , http://localhost:8000/api/vendors/, http://localhost:8000/api/purchase_orders/, http://localhost:8000/api/purchase_orders/1/
 
 
 
