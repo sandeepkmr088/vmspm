@@ -43,7 +43,7 @@ $ python -m venv env
 (env) $ vms> django-admin startapp core  or python .\manage.py startapp core
 
 ## Add 'rest_framewrok' and 'core' inside INSTALLED_APPS in  settings.py
-## Then Create Models in core/models.py ----> core/serializer.py ------> core/views.py -------->core/urls.py
+## Then Create Models in core/models.py ----> serializers in core/serializer.py ------> view in core/views.py -------->  urls in core/urls.py
 ## Also do change in vms/urls.py
 
 ## Run makemigrations and migrate command
