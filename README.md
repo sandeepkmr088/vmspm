@@ -15,7 +15,31 @@ $ pip install virtualenv
 $ python -m venv env 
 
 ## Then Activate the virtualenv
-### $ .\env\Scripts\activate   -----> for Window
-### $  source env/bin/activate  ----> for Linux
+##### $ .\env\Scripts\activate   -----> for Window
+##### $  source env/bin/activate  ----> for Linux
+
+## Install django and restframework 
+(env) $ pip install django , (env)  $ pip install djangorestframework
+
+## Create django project 
+(env)  $ django-admin startproject vms
+
+## cd vms
+(env)  $ cd vms
+
+## Database using MySQL so install mysqlclient
+(env) $ vms> pip install mysqlclient
+
+## Then create migration file
+(env) $ vms> python manage.py makemigrations
+
+## Then create database
+(env) $ vms> python manage.py migrate
+
+## Then create superuser
+(env) $ vms> python manage.py createsuperuser
+
+## Create app name core
+(env) $ vms> django-admin startapp core
 
 
