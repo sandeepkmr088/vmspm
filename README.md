@@ -48,7 +48,7 @@ $ python -m venv env
 
 ## Run makemigrations and migrate command
 
-## Final run django application
+## Finally run django application
 (env) $ vms> python manage.py runserver
 
 ## Open in any browser http://localhost:8000/api/vendors/ ,http://localhost:8000/api/vendors/1/ , http://localhost:8000/api/vendors/, http://localhost:8000/api/purchase_orders/, http://localhost:8000/api/purchase_orders/1/
