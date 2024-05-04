@@ -24,10 +24,10 @@ $ python -m venv env
 ## Create django project 
 (env)  $ django-admin startproject vms
 
-## cd vms
+## change diectory cd vms
 (env)  $ cd vms
 
-## Database using MySQL so install mysqlclient
+## MySQL database used so install mysqlclient
 (env) $ vms> pip install mysqlclient
 
 ## Then create migration file
