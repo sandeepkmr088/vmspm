@@ -15,7 +15,7 @@ $ pip install virtualenv
 $ python -m venv env 
 
 ## Then Activate the virtualenv
-$ .\env\Scripts\activate   -----> for Window
-$  source env/bin/activate  ----> for Linux
+### $ .\env\Scripts\activate   -----> for Window
+### $  source env/bin/activate  ----> for Linux
 
 
