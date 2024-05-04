@@ -33,7 +33,7 @@ $ python -m venv env
 ## Then create migration file
 (env) $ vms> python manage.py makemigrations
 
-## Then create database
+## Then create tables in database
 (env) $ vms> python manage.py migrate
 
 ## Then create superuser
