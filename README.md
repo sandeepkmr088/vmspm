@@ -46,8 +46,12 @@ $ python -m venv env
 ## Then Create Models in core/models.py ----> core/serializer.py ------> core/views.py -------->core/urls.py
 ## Also do change in vms/urls.py
 
+## Run makemigrations and migrate command
+
 ## Final run django application
 (env) $ vms> python manage.py runserver
+
+## Open http://localhost:8000/api/vendors/ ,http://localhost:8000/api/vendors/1/ , http://localhost:8000/api/vendors/
 
 
 
