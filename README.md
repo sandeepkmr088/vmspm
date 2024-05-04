@@ -24,7 +24,7 @@ $ python -m venv env
 ## Create django project 
 (env)  $ django-admin startproject vms
 
-## change diectory cd vms
+## Change diectory to vms
 (env)  $ cd vms
 
 ## MySQL database used so install mysqlclient
