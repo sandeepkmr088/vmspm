@@ -1,4 +1,4 @@
-# Django Developer Assignment
+# Djangorestframework Project 
 ## Vendor Management System with Performance Metrics
 ## Objective:
 Develop a Vendor Management System using Django and Django REST Framework. This
